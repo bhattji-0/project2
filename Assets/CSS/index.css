@@ -1,0 +1,262 @@
+body
+{
+    
+    margin: 0;
+}
+.h1
+{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 45px;
+}
+.d1
+{
+color: yellow;
+margin-top: 9px;
+margin-left: 25px;
+font-family: cursive;
+font-size: 17px;
+
+}
+.d2
+{
+margin-left: 980px;
+word-spacing: 20px;
+margin-top: 9px;
+}
+.button
+{
+    height: 40px;
+    width: 40px;
+    margin-left: 1400px;
+    margin-top: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #DC4348;
+}
+.button:hover
+{
+    height: 40px;
+    width: 250px;
+}
+.slider .button img
+{
+     height: 20px;
+     width: 20px;
+     margin: auto;
+     border-radius: 10px;
+     background-color: #DC4348;
+    }
+        .slider
+        {
+            height: 600px;
+            background: url(https://www.cafecoffeeday.com/sites/default/files/FOC-Website%20Banner.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            animation: slide 50s infinite;
+        }
+        @keyframes slide {
+            20%
+    {
+        background: url(https://www.cafecoffeeday.com/sites/default/files/TSN-Website%20Banner.png);
+        background-size: 100%;
+    background-repeat: no-repeat;
+    } 40%
+    {
+        background: url(https://www.cafecoffeeday.com/sites/default/files/Safety-CCD-Web%20Banner-Desktop.png);
+        background-size: 100%;
+    background-repeat: no-repeat;
+    } 60%
+    {
+        background: url(https://www.cafecoffeeday.com/sites/default/files/Heritage-Banner-1920X760.jpg);
+        background-size: 100%;
+    background-repeat: no-repeat;
+    } 80%
+    {
+        background: url(https://www.cafecoffeeday.com/sites/default/files/1920x760%20%281%29.jpg);
+        background-size: 100%;
+    background-repeat: no-repeat;
+    } 100%
+    {
+        background: url(https://www.cafecoffeeday.com/sites/default/files/FOC-Website%20Banner.png);
+        background-size: 100%;
+    background-repeat: no-repeat;
+    }
+        }
+      .d3
+      {
+        display: flex;
+      }
+      li
+      {
+        list-style: none;
+      }
+      li a
+      {
+        text-decoration: none; 
+      }
+      .d3
+      {
+        margin-left: 150px;
+        margin-top: -70px;
+      }
+      .d4
+      {
+        margin-top: 47px;
+        margin-left: 50px;
+      }
+      .d4 img
+      {
+        margin-top: 5px;
+      }
+      .d3 li a
+      {
+        color: #DC4348;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        margin-top: 50px;
+      }
+      .d3 .d4
+      {
+        display: inline;
+      }
+      .d5
+      {
+       height: 80px;
+       background-color: rgb(255, 255, 255);
+       margin-top: -80px;
+       box-shadow: -6px -32px 218px 42px rgba(0,0,0,0.83);
+-webkit-box-shadow: -6px -32px 218px 42px rgba(0,0,0,0.83);
+-moz-box-shadow: -6px -32px 218px 42px rgba(0,0,0,0.83);
+    }
+    .d6
+    {
+        height: 800px;
+        background: url(https://www.cafecoffeeday.com/sites/default/files/What%2527sNew-Open-copy_0.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+           flex: 50%;
+    }
+    .d7
+    {
+        height: 800px;
+        background: url(https://www.cafecoffeeday.com/sites/default/files/map-locator.gif);
+            background-repeat: no-repeat;
+           flex: 50%;
+           background-size: cover;
+    }
+    .table
+    {
+        display: flex;
+    }
+    .d6 .b1
+    {
+      height: 50px;
+      width: 150px;
+      border-radius: 25px;
+      background-color: #d9ff00;
+      border: #f78079;
+      margin-left: 300px;
+      margin-top: 720px;
+      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+cursor: pointer;
+    }
+    .d6 .b1 a
+    {
+        text-decoration: none;
+        font-family: Garamond, serif;
+        color: #DC4348;
+        font-weight: 800;
+    }
+    .d6 .b1 a:hover
+    {
+         font-size: 15px;
+         font-family: 'Times New Roman', Times, serif;
+         text-decoration: underline;
+    }.d7 .b2
+    {
+      height: 50px;
+      width: 250px;
+      border-radius: 25px;
+      background-color: #f78079;
+      border: #f78079;
+      margin-left: 300px;
+      margin-top: 720px;
+      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+cursor: pointer;
+    }
+    .d7 .b2 a
+    {
+        text-decoration: none;
+        font-family: Garamond, serif;
+        color: #DC4348;
+        font-weight: 800;
+    }
+    .d7 .b2 a:hover
+    {
+         font-size: 15px;
+         text-decoration: underline;
+         font-family: 'Times New Roman', Times, serif;
+    }
+    footer
+   {
+    text-align: center;
+    background-color: yellow;
+   }
+   .yy
+{
+    height: 20px;
+    background-color: yellow;
+}
+.foot
+{
+    word-spacing: 45px;
+    margin-left: 565px;
+}
+.foot a img
+{
+    border-radius: 20px;
+}
+.foot a img:hover
+{
+    height: 60px;
+    width: 60px;
+}
+
+.foot2 h1
+{
+    margin-left: 130px;
+    margin-top: 100px;
+}
+.dddddd img
+{
+    height: 500px;
+    margin-left: 450px;
+}
+.foot2
+{
+    display: flex;
+}
+.sur
+{
+    background-color: #eeeade;
+}
+.dddd button 
+{
+    background-color: #DC4348;
+    color: #ffff;
+    font-weight: 1000;
+    height: 60px;
+    width: 230px;
+    display: block;
+    border-radius: 30px;
+    margin-left: 120px;
+}
+.dddd button a
+{
+    color: #ffff;
+}
